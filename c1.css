@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;    
+    isolation: isolate;
+
+}
+
+
+section{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-attachment: fixed;
+}
+section::before{
+    background-image:url("robertLinderUdvaBjXfh_wUnsplas-1.jpg");
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.2;
+    content: '';
+    inset: 0;
+
+    
+}
+#imga{
+    background-image: url("PraQRti logo.jpg");
+    width: 100px;
+    height: 100px;
+}
+
+nav{
+    width: 100%;
+    overflow: auto;
+    background-color: azure;  
+    
+}
+
+.ula{
+    padding: 0;
+    margin: 0 0 0 900px;
+    list-style: none;
+}
+
+.lia{
+    float: left;
+}
+
+
+li a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    color: black;
+    font-size: larger;
+}
+
+.logo img{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding: 0%;
+}
+
+
+h1{
+    font-family: Georgia;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 2%;
+    padding-right:43% ;
+    
+
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 4%;
+    padding-top: 1%;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-bottom: 2%;
+    padding-right: 43%;
+    text-align: center;
+    font-weight:lighter;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-left: 6%;
+    padding-top: 5px;
+    font-weight: 500;
+
+}
+
+.diva{
+    width: 60%;
+    text-align: left;
+}
+
+
+.divb{
+    width: 40%;
+    text-align: right;
+}
+
+.img_lef{
+    float: right;
+    border-radius: 10%;
+    border: 3px solid #c8aeae;
+    margin: 3%;
+
+}
