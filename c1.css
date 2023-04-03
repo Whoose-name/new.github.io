@@ -28,35 +28,14 @@ section::before{
     width: 100px;
     height: 100px;
 }
-
-nav{
-    width: 100%;
-    overflow: auto;
-    background-color: azure;  
-    
+.navbar{
+    padding: .8rem;
 }
-
-.ula{
-    padding: 0;
-    margin: 0 0 0 900px;
-    list-style: none;
+.navbar-nav li{
+    padding-right: 20px;
 }
-
-.lia{
-    float: left;
-}
-
-
-li a{
-    width: 100px;
-    display: block;
-    padding: 20px 15px;
-    text-decoration: none;
-    text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 750;
-    color: black;
-    font-size: larger;
+.nav-link{
+    font-size: 1.1em !important;
 }
 
 .logo img{
@@ -93,14 +72,6 @@ h3{
     font-weight:lighter;
 }
 
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    padding-left: 6%;
-    padding-top: 5px;
-    font-weight: 500;
-
-}
 
 .diva{
     width: 60%;
